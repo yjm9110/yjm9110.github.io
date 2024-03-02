@@ -1,0 +1,687 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Jiaming Yuan</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 0.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="55671e74-8beb-4999-9938-96cbbf55b092" class="page sans"><header><h1 class="page-title">Jiaming Yuan</h1><p class="page-description"></p></header><div class="page-body"><div id="7796b454-66b7-45e7-bcbe-d97bb3d1616f" class="column-list"><div id="805bd971-30e3-4210-b541-d979210ee45f" style="width:50%" class="column"><p id="df6e7822-1418-47ea-b292-db9d937f26d0" class="">
+</p></div><div id="8fd780b4-d9cd-4363-9064-ab3308a217f2" style="width:50.000000000000014%" class="column"><p id="ce173451-35a4-4c31-9d2a-d75a8e932174" class="">
+</p></div></div><div id="bf61f96d-b0c8-478a-b231-6536b0d7160e" class="column-list"><div id="1d14b2af-130e-4d7c-961e-e613312c36bb" style="width:12.5%" class="column"><figure id="4089e55d-c8ff-496b-a3e2-47b03e7686b4" class="image" style="text-align:left"><a href="figures/jiaming.jpg"><img style="width:84px" src="figures/jiaming.jpg"/></a></figure></div><div id="da1a069e-370f-4115-b7e5-9881fcb07fe2" style="width:87.5%" class="column"><p id="6a4b9009-942e-477d-a1c6-bc65f7f2aa36" class="">🏡 1455 Moss Street #305, Eugene, OR 97403</p><p id="93f04c59-2d7a-42bc-8346-835cd1d315f4" class="">📱 (541) 232-6281</p><p id="1739565b-479c-4ed9-991b-8f77bef21114" class="">📧 <a href="mailto:jiamingy">jiamingy AT uoregon dot edu</a></p><p id="84ffc8dc-7e11-4070-82c6-fda1796f05bc" class="">📁 GitHub: <a href="https://github.com/yjm9110">https//github.com/yjm9110</a></p></div></div><hr id="bd6eb088-9818-4065-9f4a-47da82054ae6"/><h2 id="a89f9e3f-e803-4ec9-96e6-622fca6902cc" class="">🎓Education</h2><div id="42a718b5-15ae-44f9-9d4c-cd7a21c6f446" class="column-list"><div id="516f1825-1fbd-4eec-9090-60493ea7d391" style="width:68.75%" class="column"><ul id="c9cd44d3-9044-406a-b800-09f530d90a2f" class="bulleted-list"><li style="list-style-type:disc">Ph.D. of Computer &amp; Information Science<p id="0cbc3306-c103-4def-84cb-fb1c6e42b0b2" class=""><em>University of Oregon, USA</em></p></li></ul><ul id="a3df4c83-4f6e-45e0-ba34-6bb6f624a5f1" class="bulleted-list"><li style="list-style-type:disc">Bachelor of Software Engineering <p id="08eb846c-adf6-4686-9788-e7dec7cce5ab" class=""><em>China University of Petroleum, China</em></p></li></ul></div><div id="de0188cd-8a51-490b-b4e7-5fe1324697ee" style="width:31.250000000000007%" class="column"><p id="43298003-fe4d-48bd-94d0-a6514dfe3abd" class="">March 2021 - Now</p><p id="67b8784d-3ccc-4b64-8f30-1b28caaa2139" class="">
+</p><p id="149d9bd4-2553-4359-b1de-b1e7a43234b4" class="">September 2011 - June 2015</p></div></div><hr id="f0441247-3349-4ae4-bbad-ecbdf5e22e5e"/><h2 id="32f3ab4f-101d-4c23-acc5-95fae5590e6b" class="">💼Experience</h2><div id="e84a5386-5085-4d17-8572-87773c701301" class="column-list"><div id="1e5a13a3-0a63-4eb4-9f9c-1359ba181691" style="width:68.75%" class="column"><ul id="867d30f3-4630-43b5-8336-2b02564ca2df" class="bulleted-list"><li style="list-style-type:disc"><strong>Teaching Assistant </strong>   <p id="48818ad5-f8f6-40b9-8321-b8b620ce45ab" class="">University of Oregon</p><p id="fdc2708a-a4b7-42a0-b7e6-8323a520302e" class="">Instructor of lab class: CS 122 Intro to Programming using Python 3</p><p id="7db95d74-d505-4997-83d8-29b18b33c599" class="">Grader of Class: CS 333 Applied Cryptography </p></li></ul><ul id="16950e03-bbcc-45fe-8565-553e96bdf77a" class="bulleted-list"><li style="list-style-type:disc"><strong>Research Assistant </strong>   <p id="4b52d59c-6235-4c7c-b3b2-ce7d7800a670" class="">Center for Cyber Security and Privacy, University of Oregon</p></li></ul><ul id="20b7d5fb-bc95-4f74-b379-82bbb2571fa3" class="bulleted-list"><li style="list-style-type:disc"><strong>Research Engineer</strong><p id="1544d5a9-b011-47fb-bfd2-bd22997b7227" class="">Secure Mobile Center, Singapore Management University</p></li></ul><ul id="3a81c722-3031-4a5d-b093-6ae7cb4f0d99" class="bulleted-list"><li style="list-style-type:disc"><strong>Software Engineer</strong><p id="54b01ec0-3852-4610-ac19-6dbd30f7e9bf" class="">Real Time Invention (Beijing) (RTI), China</p></li></ul></div><div id="983bcc24-5e06-4049-92b3-eeb3264dc0f6" style="width:31.25%" class="column"><p id="e5b70bcc-4963-4dfd-825f-483eac9bc776" class="">September 2023 – Now</p><p id="0bae7f86-dc30-4c7c-8b2d-873c4486699c" class="">
+</p><p id="62fc86fa-a33e-4862-abc9-2a2516415496" class="">
+</p><p id="bb4e8ad2-0f22-4635-8cdc-50eb3ff4c720" class="">
+</p><p id="0a219f35-8e2c-42d8-b6bb-4a90e566ec72" class="">
+</p><p id="b6932a50-6c3b-4ee8-affd-3d0c1590a66a" class="">June 2021 – August 2023
+</p><p id="2bb0bb14-345e-4afa-bd71-469330279515" class="">
+</p><p id="1ecb56d6-04bb-4633-8ff8-0bd9a001bcb8" class="">November 2016 – March 2021
+</p><p id="5638f550-0c70-4d1d-8199-5619fed9580c" class="">March 2016 – October 2016
+</p></div></div><hr id="8ab82962-659d-4674-acc9-a6a2d393ead9"/><h2 id="14ccb82e-f454-4adf-b642-90e9ef2f99a5" class="">🪧Projects</h2><ul id="ab28fb41-78fc-4f53-89c4-4aea56e3f6d6" class="bulleted-list"><li style="list-style-type:disc"><strong>Secure Mobile Center: </strong>Participated in designing and implementing secure mobile systems, supported by Singapore National Research Foundation (NRF) with S$6,415,200 (NCR Award Number NRF2014NCR-NCR001-012). <strong>[November 2016 – February 2020]</strong>   </li></ul><ul id="97471229-fcca-4f8d-aa87-433c22b17f4f" class="bulleted-list"><li style="list-style-type:disc"><strong>A new construction for linkable secret handshake: </strong>Cooperate in experiment using <strong>Jave</strong>. The paper was published in Computer Journal, 2020. <strong>[March 2020 – June 2020]</strong>   </li></ul><ul id="8ef6878d-c9e9-4440-91ed-75dba68089ff" class="bulleted-list"><li style="list-style-type:disc"><strong>Lightning-Fast and Privacy-Preserving Outsourced Computation in the Cloud: </strong>Cooperate in experiment using <strong>C </strong>language and<strong> SGX</strong>. The paper was published in Cybersecurity, 2020. <strong>[June 2019 – September 2019]</strong>   </li></ul><ul id="f5473287-7697-44f4-9982-2000ad5d2182" class="bulleted-list"><li style="list-style-type:disc"><strong>Anonymous Asynchronous Payment Channel from k-Time Accountable Assertion: </strong>Cooperate in experiment using <strong>Java</strong>. The paper was published in Cryptology and Network Security: 18th International Conference, CANS 2019. <strong>[January 2019 – May 2019]</strong>   </li></ul><ul id="26baa211-f7a5-480b-a897-dea87bf32250" class="bulleted-list"><li style="list-style-type:disc"><strong>Privacy-Preserving Reinforcement Learning Design for Patient-Centric Dynamic Treatment Regimes: </strong>Cooperate in experiment using <strong>C</strong>. The paper was published in IEEE Transactions on Emerging Topics in Computing, 2019. <strong>[September 2018 – February 2019]</strong>   </li></ul><ul id="2aa51d11-2604-4d83-879b-f843deed54e2" class="bulleted-list"><li style="list-style-type:disc"><strong>Lightweight Attribute-based Keyword Search with Policy Protection for Cloud-assisted IoT: </strong>Cooperate in experiment using <strong>Jave</strong>. The paper was published in IEEE Conference on Dependable and Secure Computing, 2019. <strong>[May 2018 – November 2018]</strong>   </li></ul><ul id="f0ebf49e-179a-4698-9082-7e20c1eaf9b3" class="bulleted-list"><li style="list-style-type:disc"><strong>A secure cloud sharing system based on outsourced CP-ABE: </strong>Designed and implemented a secure cloud file sharing system based on outsourced CP-ABE in <strong>C</strong> and <strong>Python </strong>on Ubuntu/Windows/Android. <strong>[November 2016 – August 2018]</strong>   </li></ul><ul id="cc9d2771-dbd1-44bb-885a-f194f0b02359" class="bulleted-list"><li style="list-style-type:disc"><strong>A secure messaging system based on outsourced CP-ABE: </strong>Designed and implemented a secure message system based on outsourced CP-ABE in <strong>C</strong> and <strong>Java </strong>on Ubuntu/Windows/Android. <strong>[November 2016 – August 2018]</strong>   </li></ul><ul id="299e4610-830e-4be4-9aa6-442b025ded91" class="bulleted-list"><li style="list-style-type:disc"><strong>SecBook, a secure document real-time collaboration application online: </strong>Designed and implemented a secure document real-time collaboration application web application using <strong>Java</strong>, <strong>JavaScript</strong>, <strong>HTML</strong>, and <strong>CSS</strong>, and worked with <strong>AWS EC2</strong>.<strong> [March 2016 – October 2016]</strong>   </li></ul><ul id="7060ee26-e921-4455-9e32-8ca0051d9411" class="bulleted-list"><li style="list-style-type:disc"><strong>Real Time Invention (Beijing) official website: </strong>Designed and implemented an official website for RTI in both English and Chinese using <strong>HTML</strong>, <strong>JavaScript</strong>, and <strong>CSS</strong>, deployed by<strong> AWS S3</strong>. <strong>[March 2016 – October 2016]</strong>   </li></ul><hr id="2807ca41-c45c-4ddd-9a5a-88ba65d3408c"/><h2 id="5e6d1464-691d-4dd8-bb18-d42ca408af1b" class="">📄Publications</h2><ul id="426d85be-452c-45e9-97d7-a32f38322bbb" class="bulleted-list"><li style="list-style-type:disc">A Privacy-Preserving and Redactable Healthcare Blockchain System, <em>IEEE Transactions on Services Computing</em>. <strong>(2024)</strong></li></ul><ul id="ecf38b65-1572-4958-a6ca-5d4eddbcdef1" class="bulleted-list"><li style="list-style-type:disc">M-EDESE: Multi-Domain, Easily Deployable, and Efficiently Searchable Encryption, <em>International Conference on Information Security Practice and Experience</em>. <strong>(2022)</strong></li></ul><ul id="469c297e-664c-4e28-8de7-e62a3f831c3e" class="bulleted-list"><li style="list-style-type:disc">Accountable and Fine-Grained Controllable Rewriting in Blockchains, <em>IEEE Transactions on Information Forensics and Security</em>. <strong>(2022)</strong></li></ul><ul id="ee27fb9c-8346-4ae1-b3c8-d95619a8908e" class="bulleted-list"><li style="list-style-type:disc">SOCI: A toolkit for secure outsourced computation on integers, <em>IEEE Transactions on Information Forensics and Security</em>. <strong>(2022)</strong></li></ul><ul id="223d6791-4b91-493e-b810-ae266783440f" class="bulleted-list"><li style="list-style-type:disc">LEAP: leakage-abuse attack on efficiently deployable, efficiently searchable encryption with partially known dataset, <em>Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security</em>. <strong>(2022)</strong></li></ul><ul id="f11697fa-8291-49e4-a9ac-9815cb3a3d0b" class="bulleted-list"><li style="list-style-type:disc">Fine-grained and controllably redactable blockchain with harmful data forced removal, <em>Security and Communication Netwo</em>rks. <strong>(2021)</strong></li></ul><ul id="7cd92202-a3fd-4351-bce2-562cf3ed06f0" class="bulleted-list"><li style="list-style-type:disc">Revocable policy-based chameleon hash, <em>Computer Security–ESORICS</em>. <strong>(2021）</strong></li></ul><ul id="222ea1f0-5651-440c-a3ec-5d2a0d154bb4" class="bulleted-list"><li style="list-style-type:disc">Blockchain-based public auditing and secure deduplication with fair arbitration, <em>Information Sciences</em>. <strong>(2020)</strong></li></ul><ul id="b34740ed-083c-4bad-993e-106faa5cd93c" class="bulleted-list"><li style="list-style-type:disc">Efficient ciphertext-policy attribute-based encryption with blackbox traceability, <em>Information Sciences</em>. <strong>(2020)</strong></li></ul><ul id="6089c48a-16cb-441e-bead-4ca4bd010ec0" class="bulleted-list"><li style="list-style-type:disc">A secure flexible and tampering-resistant data sharing system for vehicular social networks, <em>IEEE Transactions on Vehicular Technology</em>. <strong>(2020)</strong></li></ul><ul id="cdc5aa98-3879-4401-b458-6856d331e236" class="bulleted-list"><li style="list-style-type:disc">Super payment channel for decentralized cryptocurrencies, <em>IEEE Conference on Dependable and Secure Computing (DSC)</em>. <strong>(2019)</strong></li></ul><hr id="3f806ef8-6f61-4233-b84a-bd6abf5db93f"/><h2 id="5e461a1f-16f8-43c6-8407-b71e5432a1a0" class="">👤Skills</h2><div id="df97379b-c760-4a59-b33b-1c2dd8d082cf" class="column-list"><div id="8997b215-2e4c-4076-9ba8-4cefbec40573" style="width:37.5%" class="column"><ul id="a0bd32b8-f940-46e1-b056-1dc8beef0222" class="bulleted-list"><li style="list-style-type:disc">Languages:                    </li></ul><ul id="6704aa88-31bf-4fd3-9500-2ed3bcf20deb" class="bulleted-list"><li style="list-style-type:disc">Programming Languages:                    </li></ul><ul id="dc462dc4-39ae-422b-b1a6-9318ef94e2e5" class="bulleted-list"><li style="list-style-type:disc">Platform/OS:</li></ul><ul id="060a680f-f880-49cc-85da-a18431463257" class="bulleted-list"><li style="list-style-type:disc">Database:</li></ul></div><div id="313919fa-d02c-4f55-9a2e-7278622e0c4c" style="width:62.5%" class="column"><p id="b72d3e4d-3c08-4b91-b32f-b1797b95b354" class="">Chinese, English</p><p id="9f7edab9-53ef-4402-9e10-6c8f86862780" class="">C/C++, Java, Python, JavaScript, CSS, SQL, R, Shell Script, PHP</p><p id="40246d80-203b-4503-944b-62cda50477b7" class="">Windows, Linux, Android</p><p id="adbc4a9f-6088-40c5-aa79-585b26bc9ed5" class="">MySQL, Oracle, SQLite</p></div></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
