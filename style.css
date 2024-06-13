@@ -93,6 +93,13 @@ figcaption {
     margin-top: 0.5em;
 }
 
+#avatar {
+    min-width: 85px; 
+    max-width: 85px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgb(152, 191, 248);
+}
+
 mark {
     background-color: transparent;
 }
