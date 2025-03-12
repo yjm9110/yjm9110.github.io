@@ -4,6 +4,34 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Jiaming Yuan's Home Page</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script>
+		function setEmojiFavicon(emoji) {
+		  const canvas = document.createElement('canvas');
+		  canvas.width = 64;
+		  canvas.height = 64;
+		  const ctx = canvas.getContext('2d');
+		  ctx.font = '48px serif';  // 字体大小和类型
+		  ctx.textAlign = 'center';
+		  ctx.textBaseline = 'middle';
+		  ctx.fillText(emoji, 32, 32);  // 在 canvas 中绘制 emoji
+	
+		  const favicon = document.createElement('link');
+		  favicon.rel = 'icon';
+		  favicon.href = canvas.toDataURL();  // 将 canvas 转为 Data URL
+	
+		  // 移除之前的 favicon
+		  const oldFavicons = document.querySelectorAll('link[rel="icon"]');
+		  oldFavicons.forEach(fav => fav.remove());
+	
+		  document.head.appendChild(favicon);
+		}
+	
+		// 页面加载后设置 emoji favicon
+		window.onload = function() {
+		  setEmojiFavicon('🪪');  // 你想要的 emoji
+		};
+	  </script>
 </head>
 <body>
 	<article  class="page sans">
