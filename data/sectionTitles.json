@@ -1,0 +1,20 @@
+{
+    "en": {
+        "biography": "Biography",
+        "education": "Education",
+        "experience": "Experience",
+        "projects": "Projects",
+        "publication": "Publication",
+        "fellowships_awards": "Fellowships & Awards",
+        "skills": "Skills"
+    },
+    "cn": {
+        "biography": "个人简介",
+        "education": "教育经历",
+        "experience": "工作经历",
+        "projects": "项目经验",
+        "publication": "论文发表",
+        "fellowships_awards": "奖学金与奖励",
+        "skills": "技能" 
+    }
+}

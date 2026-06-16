@@ -1,0 +1,122 @@
+[
+  {
+    "en": {
+      "title": "Secure Mobile Center",
+      "description": "Participated in designing and implementing secure mobile systems, supported by Singapore National Research Foundation (NRF) with S$6,415,200 (NCR Award Number NRF2014NCR-NCR001-012).",
+      "period": "November 2016 – February 2020"
+    },
+    "cn": {
+      "title": "安全移动中心 (Secure Mobile Center)",
+      "description": "参与设计并实现安全移动系统，该项目由新加坡国家研究基金会 (NRF) 资助，资助金额为 6,415,200 新币 (项目编号：NRF2014NCR-NCR001-012)。",
+      "period": "2016年11月 – 2020年2月"
+    }
+  },
+  {
+    "en": {
+      "title": "A new construction for linkable secret handshake",
+      "description": "Cooperate in experiment using <strong>Java</strong>. The paper was published in Computer Journal, 2020. ",
+      "period": "March 2020 – June 2020"
+    },
+    "cn": {
+      "title": "可链接秘密握手的新型构造 (A new construction for linkable secret handshake)",
+      "description": "负责基于 <strong>Java</strong> 的实验实现。论文发表于 Computer Journal, 2020。",
+      "period": "2020年3月 – 2020年6月"
+    }
+  },
+  {
+    "en": {
+      "title": "Lightning-Fast and Privacy-Preserving Outsourced Computation in the Cloud",
+      "description": "Cooperate in experiment using <strong>C</strong> language and <strong>SGX</strong>. The paper was published in Cybersecurity, 2020.",
+      "period": "June 2019 – September 2019"
+    },
+    "cn": {
+      "title": "云端极速且隐私保护的外包计算 (Lightning-Fast and Privacy-Preserving Outsourced Computation in the Cloud)",
+      "description": "负责基于 <strong>C</strong> 语言和 <strong>SGX</strong> 的实验实现。论文发表于 Cybersecurity, 2020。",
+      "period": "2019年6月 – 2019年9月"
+    }
+  },
+  {
+    "en": {
+      "title": "Anonymous Asynchronous Payment Channel from k-Time Accountable Assertion",
+      "description": "Cooperate in experiment using <strong>Java</strong>. The paper was published in Cryptology and Network Security: 18th International Conference, CANS 2019. ",
+      "period": "January 2019 – May 2019"
+    },
+    "cn": {
+      "title": "基于 k 次可追责断言的匿名异步支付通道 (Anonymous Asynchronous Payment Channel from k-Time Accountable Assertion)",
+      "description": "负责基于 <strong>Java</strong> 的实验实现。论文发表于第18届国际密码学与网络安全会议 (CANS 2019)。",
+      "period": "2019年1月 – 2019年5月"
+    }
+  },
+  {
+    "en": {
+      "title": "Privacy-Preserving Reinforcement Learning Design for Patient-Centric Dynamic Treatment Regimes",
+      "description": "Cooperate in experiment using <strong>C</strong>. The paper was published in IEEE Transactions on Emerging Topics in Computing, 2019. ",
+      "period": "September 2018 – February 2019"
+    },
+    "cn": {
+      "title": "以患者为中心的动态治疗方案隐私保护强化学习设计 (Privacy-Preserving Reinforcement Learning Design for Patient-Centric Dynamic Treatment Regimes)",
+      "description": "负责基于 <strong>C</strong> 语言的实验实现。论文发表于 IEEE Transactions on Emerging Topics in Computing, 2019。",
+      "period": "2018年9月 – 2019年2月"
+    }
+  },
+  {
+    "en": {
+      "title": "Lightweight Attribute-based Keyword Search with Policy Protection for Cloud-assisted IoT",
+      "description": "Cooperate in experiment using <strong>Java</strong>. The paper was published in IEEE Conference on Dependable and Secure Computing, 2019.",
+      "period": "May 2018 – November 2018"
+    },
+    "cn": {
+      "title": "面向云辅助物联网的具有策略保护的轻量级属性基关键词检索 (Lightweight Attribute-based Keyword Search with Policy Protection for Cloud-assisted IoT)",
+      "description": "负责基于 <strong>Java</strong> 的实验实现。论文发表于 IEEE Conference on Dependable and Secure Computing, 2019。",
+      "period": "2018年5月 – 2018年11月"
+    }
+  },
+  {
+    "en": {
+      "title": "A secure cloud sharing system based on outsourced CP-ABE",
+      "description": "Designed and implemented a secure cloud file sharing system based on outsourced CP-ABE in <strong>C</strong> and <strong>Python</strong> on Ubuntu/Windows/Android.",
+      "period": "November 2016 – August 2018"
+    },
+    "cn": {
+      "title": "基于外包 CP-ABE 的安全云共享系统 (A secure cloud sharing system based on outsourced CP-ABE)",
+      "description": "在 Ubuntu/Windows/Android 平台上使用 <strong>C</strong> 和 <strong>Python</strong> 设计并实现了一个基于外包 CP-ABE 的安全云文件共享系统。",
+      "period": "2016年11月 – 2018年8月"
+    }
+  },
+  {
+    "en": {
+      "title": "A secure messaging system based on outsourced CP-ABE",
+      "description": "Designed and implemented a secure message system based on outsourced CP-ABE in <strong>C</strong> and <strong>Java</strong> on Ubuntu/Windows/Android.",
+      "period": "November 2016 – August 2018"
+    },
+    "cn": {
+      "title": "基于外包 CP-ABE 的安全即时通讯系统 (A secure instant messaging system based on outsourced CP-ABE)",
+      "description": "在 Ubuntu/Windows/Android 平台上使用 <strong>C</strong> 和 <strong>Java</strong> 设计并实现了一个基于外包 CP-ABE 的安全即时通讯系统。",
+      "period": "2016年11月 – 2018年8月"
+    }
+  },
+  {
+    "en": {
+      "title": "SecBook, a secure document real-time collaboration application online",
+      "description": "Designed and implemented a secure document real-time collaboration application web application using <strong>Java</strong>, <strong>JavaScript</strong>, <strong>HTML</strong>, and <strong>CSS</strong>, and worked with <strong>AWS EC2</strong>.",
+      "period": "March 2016 – October 2016"
+    },
+    "cn": {
+      "title": "SecBook，在线安全文档实时协作应用 (SecBook, a secure document real-time collaboration application online)",
+      "description": "使用 <strong>Java</strong>, <strong>JavaScript</strong>, <strong>HTML</strong> 和 <strong>CSS</strong> 设计并实现了一个安全文档实时协作 Web 应用，并部署于 <strong>AWS EC2</strong>。",
+      "period": "2016年3月 – 2016年10月"
+    }
+  },
+  {
+    "en": {
+      "title": "Realtime Invention (Beijing) official website",
+      "description": "Designed and implemented an official website for RTI in both English and Chinese using <strong>HTML</strong>, <strong>JavaScript</strong>, and <strong>CSS</strong>, deployed by <strong>AWS S3</strong>. ",
+      "period": "March 2016 – October 2016"
+    },
+    "cn": {
+      "title": "实创时新 (Realtime Invention)（北京）科技有限公司的官方网站",
+      "description": "使用 <strong>HTML</strong>, <strong>JavaScript</strong> 和 <strong>CSS</strong> 为 RTI 设计并实现了中英文双语官方网站，通过 <strong>AWS S3</strong> 部署。",
+      "period": "2016年3月 – 2016年10月"
+    }
+  }
+]

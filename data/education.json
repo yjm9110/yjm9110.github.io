@@ -1,0 +1,38 @@
+[
+  {
+    "en": {
+      "degree": "Ph.D. of Computer & Information Science",
+      "institution": "University of Oregon, USA",
+      "period": "Jun 2021 - March 2026"
+    },
+    "cn": {
+      "degree": "计算机与信息科学博士",
+      "institution": "俄勒冈大学，美国",
+      "period": "2021年6月 - 2026年3月"
+    }
+  },
+  {
+    "en": {
+      "degree": "M.S. of Computer & Information Science",
+      "institution": "University of Oregon, USA",
+      "period": "Jun 2021 - March 2024"
+    },
+    "cn": {
+      "degree": "计算机与信息科学硕士",
+      "institution": "俄勒冈大学，美国",
+      "period": "2021年6月 - 2024年3月"
+    }
+  },
+  {
+    "en": {
+      "degree": "B.S. of Software Engineering",
+      "institution": "China University of Petroleum, China",
+      "period": "September 2011 - June 2015"
+    },
+    "cn": {
+      "degree": "软件工程学士",
+      "institution": "中国石油大学",
+      "period": "2011年9月 - 2015年6月"
+    }
+  }
+]

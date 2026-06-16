@@ -1,0 +1,210 @@
+[
+  {
+    "en": {
+      "title": "Leakage-Resilient Easily Deployable and Efficiently Searchable Encryption (EDESE)",
+      "authors": "<strong>Jiaming Yuan</strong>, Yingjiu Li, Jun Li, Daoyuan Wu, Jianting Ning, Yangguang Tian, Robert H. Deng",
+      "year": "2025",
+      "venue": "ACM Symposium on Access Control Models and Technologies (SACMAT 2025), pages 133-144",
+      "doi": "https://doi.org/10.1145/3734436.3734445"
+    },
+    "cn": {
+      "title": "可泄露抗性易部署高效可搜索加密（Leakage-Resilient Easily Deployable and Efficiently Searchable Encryption (EDESE)）",
+      "authors": "<strong>Jiaming Yuan (袁家明)</strong>, Yingjiu Li, Jun Li, Daoyuan Wu, Jianting Ning, Yangguang Tian, Robert H. Deng",
+      "year": "2025",
+      "venue": "ACM Symposium on Access Control Models and Technologies (SACMAT 2025), pages 133-144",
+      "doi": "https://doi.org/10.1145/3734436.3734445"
+    }
+  },
+  {
+    "en": {
+      "title": "Message Control for Blockchain Rewriting",
+      "authors": "Yingjiu Li, Binanda Sengupta, Yangguang Tian, <strong>Jiaming Yuan</strong>, Tsz Hon Yuen",
+      "year": "2024",
+      "venue": "IEEE Transactions on Dependable and Secure Computing, vol. 22, no. 3, pages 1864-1876",
+      "doi": "https://doi.org/10.1109/TDSC.2024.3372631"
+    },
+    "cn": {
+      "title": "区块链重写的消息控制（Message Control for Blockchain Rewriting）",
+      "authors": "Yingjiu Li, Binanda Sengupta, Yangguang Tian, <strong>Jiaming Yuan (袁家明)</strong>, Tsz Hon Yuen",
+      "year": "2024",
+      "venue": "IEEE Transactions on Dependable and Secure Computing, vol. 22, no. 3, pages 1864-1876",
+      "doi": "https://doi.org/10.1109/TDSC.2024.3372631"
+    }
+  },
+  {
+    "en": {
+      "title": "A Privacy-Preserving and Redactable Healthcare Blockchain System",
+      "authors": "Shengmin Xu, Jianting Ning, Xiaoguo Li, <strong>Jiaming Yuan</strong>, Xinyi Huang, Robert H. Deng",
+      "year": "2024",
+      "venue": "IEEE Transactions on Services Computing, vol. 17, no. 2, pages 364-377",
+      "doi": "https://doi.org/10.1109/TSC.2024.3356595"
+    },
+    "cn": {
+      "title": "隐私保护与可编辑的医疗区块链系统（A Privacy-Preserving and Redactable Healthcare Blockchain System）",
+      "authors": "Shengmin Xu, Jianting Ning, Xiaoguo Li, <strong>Jiaming Yuan (袁家明)</strong>, Xinyi Huang, Robert H. Deng",
+      "year": "2024",
+      "venue": "IEEE Transactions on Services Computing, vol. 17, no. 2, pages 364-377",
+      "doi": "https://doi.org/10.1109/TSC.2024.3356595"
+    }
+  },
+  {
+    "en": {
+      "title": "Accountable and Fine-Grained Controllable Rewriting in Blockchains",
+      "authors": "Shengmin Xu, Xinyi Huang, <strong>Jiaming Yuan</strong>, Yingjiu Li, Robert H. Deng",
+      "year": "2022",
+      "venue": "IEEE Transactions on Information Forensics and Security, vol. 18, pages 101-116",
+      "doi": "https://doi.org/10.1109/TIFS.2022.3217742"
+    },
+    "cn": {
+      "title": "区块链中可追责的细粒度可控重写（Accountable and Fine-Grained Controllable Rewriting in Blockchains）",
+      "authors": "Shengmin Xu, Xinyi Huang, <strong>Jiaming Yuan (袁家明)</strong>, Yingjiu Li, Robert H. Deng",
+      "year": "2022",
+      "venue": "IEEE Transactions on Information Forensics and Security, vol. 18, pages 101-116",
+      "doi": "https://doi.org/10.1109/TIFS.2022.3217742"
+    }
+  },
+  {
+    "en": {
+      "title": "M-EDESE: Multi-Domain, Easily Deployable, and Efficiently Searchable Encryption",
+      "authors": "<strong>Jiaming Yuan</strong>, Yingjiu Li, Jianting Ning, Robert H. Deng",
+      "year": "2022",
+      "venue": "International Conference on Information Security Practice and Experience (ISPEC 2022), pages 606-623",
+      "doi": "https://doi.org/10.1007/978-3-031-21280-2_34"
+    },
+    "cn": {
+      "title": "M-EDESE: 多域、易部署且高效的可搜索加密（M-EDESE: Multi-Domain, Easily Deployable, and Efficiently Searchable Encryption）",
+      "authors": "<strong>Jiaming Yuan (袁家明)</strong>, Yingjiu Li, Jianting Ning, Robert H. Deng",
+      "year": "2022",
+      "venue": "International Conference on Information Security Practice and Experience (ISPEC 2022), pages 606-623",
+      "doi": "https://doi.org/10.1007/978-3-031-21280-2_34"
+    }
+  },
+  {
+    "en": {
+      "title": "SOCI: A Toolkit for Secure Outsourced Computation on Integers",
+      "authors": "Bowen Zhao, <strong>Jiaming Yuan</strong>, Ximeng Liu, Yongdong Wu, HweeHwa Pang, Robert H. Deng",
+      "year": "2022",
+      "venue": "IEEE Transactions on Information Forensics and Security, vol. 17, pages 3637-3648",
+      "doi": "https://doi.org/10.1109/TIFS.2022.3211707"
+    },
+    "cn": {
+      "title": "SOCI: 整数安全外包计算工具包（SOCI: A Toolkit for Secure Outsourced Computation on Integers）",
+      "authors": "Bowen Zhao, <strong>Jiaming Yuan (袁家明)</strong>, Ximeng Liu, Yongdong Wu, HweeHwa Pang, Robert H. Deng",
+      "year": "2022",
+      "venue": "IEEE Transactions on Information Forensics and Security, vol. 17, pages 3637-3648",
+      "doi": "https://doi.org/10.1109/TIFS.2022.3211707"
+    }
+  },
+  {
+    "en": {
+      "title": "LEAP: Leakage-Abuse Attack on Efficiently Deployable, Efficiently Searchable Encryption with Partially Known Dataset",
+      "authors": "Jianting Ning, Xinyi Huang, <strong>Jiaming Yuan</strong>, Yingjiu Li, Jian Weng, Robert H. Deng",
+      "year": "2021",
+      "venue": "Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security (CCS 2021), pages 2307-2320",
+      "doi": "https://doi.org/10.1145/3460120.3484540"
+    },
+    "cn": {
+      "title": "LEAP: 基于部分已知数据集的可泄露滥用攻击（LEAP: Leakage-Abuse Attack on Efficiently Deployable, Efficiently Searchable Encryption with Partially Known Dataset）",
+      "authors": "Jianting Ning, Xinyi Huang, <strong>Jiaming Yuan (袁家明)</strong>, Yingjiu Li, Jian Weng, Robert H. Deng",
+      "year": "2021",
+      "venue": "Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security (CCS 2021), pages 2307-2320",
+      "doi": "https://doi.org/10.1145/3460120.3484540"
+    }
+  },
+  {
+    "en": {
+      "title": "Fine-Grained and Controllably Redactable Blockchain with Harmful Data Forced Removal",
+      "authors": "Huiying Hou, Shidi Hao, <strong>Jiaming Yuan</strong>, Shengmin Xu, Yunlei Zhao",
+      "year": "2021",
+      "venue": "Security and Communication Networks, vol. 2021, article 3680359",
+      "doi": "https://doi.org/10.1155/2021/3680359"
+    },
+    "cn": {
+      "title": "细粒度可控可编辑区块链与有害数据强制移除（Fine-Grained and Controllably Redactable Blockchain with Harmful Data Forced Removal）",
+      "authors": "Huiying Hou, Shidi Hao, <strong>Jiaming Yuan (袁家明)</strong>, Shengmin Xu, Yunlei Zhao",
+      "year": "2021",
+      "venue": "Security and Communication Networks, vol. 2021, article 3680359",
+      "doi": "https://doi.org/10.1155/2021/3680359"
+    }
+  },
+  {
+    "en": {
+      "title": "Revocable Policy-Based Chameleon Hash",
+      "authors": "Shengmin Xu, Jianting Ning, Jinhua Ma, Guowen Xu, <strong>Jiaming Yuan</strong>, Robert H. Deng",
+      "year": "2021",
+      "venue": "Computer Security – ESORICS 2021, pages 327-347",
+      "doi": "https://doi.org/10.1007/978-3-030-88428-4_17"
+    },
+    "cn": {
+      "title": "可撤销策略的变色龙哈希（Revocable Policy-Based Chameleon Has）",
+      "authors": "Shengmin Xu, Jianting Ning, Jinhua Ma, Guowen Xu, <strong>Jiaming Yuan (袁家明)</strong>, Robert H. Deng",
+      "year": "2021",
+      "venue": "Computer Security – ESORICS 2021, pages 327-347",
+      "doi": "https://doi.org/10.1007/978-3-030-88428-4_17"
+    }
+  },
+  {
+    "en": {
+      "title": "Blockchain-Based Public Auditing and Secure Deduplication with Fair Arbitration",
+      "authors": "Haoran Yuan, Xiaofeng Chen, Jianfeng Wang, <strong>Jiaming Yuan</strong>, Hongyang Yan, Willy Susilo",
+      "year": "2020",
+      "venue": "Information Sciences, vol. 541, pages 409-425",
+      "doi": "https://doi.org/10.1016/j.ins.2020.07.005"
+    },
+    "cn": {
+      "title": "基于区块链的公开审计与安全去重（含公平仲裁）（Blockchain-Based Public Auditing and Secure Deduplication with Fair Arbitration）",
+      "authors": "Haoran Yuan, Xiaofeng Chen, Jianfeng Wang, <strong>Jiaming Yuan (袁家明)</strong>, Hongyang Yan, Willy Susilo",
+      "year": "2020",
+      "venue": "Information Sciences, vol. 541, pages 409-425",
+      "doi": "https://doi.org/10.1016/j.ins.2020.07.005"
+    }
+  },
+  {
+    "en": {
+      "title": "Efficient Ciphertext-Policy Attribute-Based Encryption with Blackbox Traceability",
+      "authors": "Jianting Ning, Zhenfu Cao, Xiaolei Dong, <strong>Jiaming Yuan</strong>, Kaitai Liang, Hui Ma, Lifei Wei",
+      "year": "2020",
+      "venue": "Information Sciences, vol. 528, pages 218-23",
+      "doi": "https://doi.org/10.1016/j.ins.2020.04.028"
+    },
+    "cn": {
+      "title": "具有黑盒可追溯性的高效密文策略属性基加密（Efficient Ciphertext-Policy Attribute-Based Encryption with Blackbox Traceability）",
+      "authors": "Jianting Ning, Zhenfu Cao, Xiaolei Dong, <strong>Jiaming Yuan (袁家明)</strong>, Kaitai Liang, Hui Ma, Lifei Wei",
+      "year": "2020",
+      "venue": "Information Sciences, vol. 528, pages 218-23",
+      "doi": "https://doi.org/10.1016/j.ins.2020.04.028"
+    }
+  },
+  {
+    "en": {
+      "title": "A Secure Flexible and Tampering-Resistant Data Sharing System for Vehicular Social Networks",
+      "authors": "Jianfei Sun, Hu Xiong, Shufan Zhang, Ximeng Liu, <strong>Jiaming Yuan</strong>, Robert H. Deng",
+      "year": "2020",
+      "venue": "IEEE Transactions on Vehicular Technology, vol. 69, no. 11, pages 12938-12950",
+      "doi": "https://doi.org/10.1109/TVT.2020.3025969"
+    },
+    "cn": {
+      "title": "面向车载社交网络的安全、灵活且抗篡改的数据共享系统（A Secure Flexible and Tampering-Resistant Data Sharing System for Vehicular Social Networks）",
+      "authors": "Jianfei Sun, Hu Xiong, Shufan Zhang, Ximeng Liu, <strong>Jiaming Yuan (袁家明)</strong>, Robert H. Deng",
+      "year": "2020",
+      "venue": "IEEE Transactions on Vehicular Technology, vol. 69, no. 11, pages 12938-12950",
+      "doi": "https://doi.org/10.1109/TVT.2020.3025969"
+    }
+  },
+  {
+    "en": {
+      "title": "Super Payment Channel for Decentralized Cryptocurrencies",
+      "authors": "Shengmin Xu, <strong>Jiaming Yuan</strong>, Yingjiu Li, Ximeng Liu, Yinghui Zhang, Robert H. Deng",
+      "year": "2019",
+      "venue": "IEEE Conference on Dependable and Secure Computing (DSC 2019), pages 1-8",
+      "doi": "https://doi.org/10.1109/DSC47296.2019.8937619"
+    },
+    "cn": {
+      "title": "去中心化加密货币的超级支付通道（Super Payment Channel for Decentralized Cryptocurrencies）",
+      "authors": "Shengmin Xu, <strong>Jiaming Yuan (袁家明)</strong>, Yingjiu Li, Ximeng Liu, Yinghui Zhang, Robert H. Deng",
+      "year": "2019",
+      "venue": "IEEE Conference on Dependable and Secure Computing (DSC 2019), pages 1-8",
+      "doi": "https://doi.org/10.1109/DSC47296.2019.8937619"
+    }
+  }
+]

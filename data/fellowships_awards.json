@@ -1,0 +1,58 @@
+[
+  {
+    "en": {
+      "title": "Ripple Fellowship",
+      "link": "https://news.uoregon.edu/content/ripple-partnership-puts-uo-elite-company-blockchain-research",
+      "year": "2022",
+      "file": "./files/RippleGradAwardLetter-Yuan.pdf"
+    },
+    "cn": {
+      "title": "Ripple 奖学金",
+      "link": "https://news.uoregon.edu/content/ripple-partnership-puts-uo-elite-company-blockchain-research",
+      "year": "2022",
+      "file": "./files/RippleGradAwardLetter-Yuan.pdf"
+    }
+  },
+  {
+    "en": {
+      "title": "Gurdeep Pall Graduate Student Fellowship",
+      "link": "https://scds.uoregon.edu/cs/graduate-programs/funding",
+      "year": "2025",
+      "file": "./files/CS_Scholarships_Pall_2025_Final_11June.pdf"
+    },
+    "cn": {
+      "title": "Gurdeep Pall 研究生奖学金",
+      "link": "https://scds.uoregon.edu/cs/graduate-programs/funding",
+      "year": "2025",
+      "file": "./files/CS_Scholarships_Pall_2025_Final_11June.pdf"
+    }
+  },
+  {
+    "en": {
+      "title": "Runner-up Poster Award at the 2025 Graduate Research Open House",
+      "link": "https://uoregongo.github.io/Posters/index.html",
+      "year": "2025",
+      "file": "./files/CIS_Grad_Poster_Award.pdf"
+    },
+    "cn": {
+      "title": "2025研究生研究开放日海报奖（亚军）",
+      "link": "https://uoregongo.github.io/Posters/index.html",
+      "year": "2025",
+      "file": "./files/CIS_Grad_Poster_Award.pdf"
+    }
+  },
+  {
+    "en": {
+      "title": "Lorry I. Lokey Interdisciplinary Science Initiative Dissertation Award",
+      "link": "https://graduatestudies.uoregon.edu/funding/awards/dissertation-award#Award_Details",
+      "year": "2026",
+      "file": "./files/J Yuan_Additional Lorry Lokey award letter_01.2026.pdf"
+    },
+    "cn": {
+      "title": "Lorry I. Lokey 跨学科科学倡议博士论文奖",
+      "link": "https://graduatestudies.uoregon.edu/funding/awards/dissertation-award#Award_Details",
+      "year": "2026",
+      "file": "./files/J Yuan_Additional Lorry Lokey award letter_01.2026.pdf"
+    }
+  }
+]

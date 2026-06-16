@@ -1,0 +1,42 @@
+[
+  {
+    "en": {
+      "left": "Languages:",
+      "right": "Chinese, English"
+    },
+    "cn": {
+      "left": "语言：",
+      "right": "中文，英文"
+    }
+  },
+  {
+    "en": {
+      "left": "Programming Languages:",
+      "right": "C/C++, Java, Python, JavaScript, CSS, SQL, R, Shell Script, PHP"
+    },
+    "cn": {
+      "left": "编程语言：",
+      "right": "C/C++，Java，Python，JavaScript，CSS，SQL，R，Shell，PHP"
+    }
+  },
+  {
+    "en": {
+      "left": "Platform/OS:",
+      "right": "Windows, Linux, Android"
+    },
+    "cn": {
+      "left": "平台/操作系统：",
+      "right": "Windows，Linux，Android"
+    }
+  },
+  {
+    "en": {
+      "left": "Database:",
+      "right": "MySQL, Oracle, SQLite"
+    },
+    "cn": {
+      "left": "数据库：",
+      "right": "MySQL，Oracle，SQLite"
+    }
+  }
+]

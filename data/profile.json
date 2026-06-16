@@ -1,0 +1,40 @@
+{
+  "en": {
+    "name": "Jiaming YUAN",
+    "avatar": "figures/jiaming.jpg",
+    "address": "1347 Serangoon Road, Singapore 328235",
+    "phone": [
+      "+86 183 5424 2788", 
+      "+65 8934 0890",
+      "+1 (541) 232-6281"
+    ],
+    "email": [
+      "yjm9110@outlook.com", 
+      "jmyuan@smu.edu.sg", 
+      "jiamingy@uoregon.edu"
+    ],
+    "social":{
+      "📁 GitHub": "https://github.com/yjm9110",
+      "🪪 LinkedIn": "https://www.linkedin.com/in/jiaming-yuan-553b2421a"
+    }
+  },
+  "cn": {
+    "name": "袁(YUAN) 家明(Jiaming)",
+    "avatar": "figures/jiaming.jpg",
+    "address": "新加坡实龙岗路1347号，邮编：328235",
+    "phone": [
+      "+86 183 5424 2788", 
+      "+65 8934 0890",
+      "+1 (541) 232-6281"
+    ],
+    "email": [
+      "yjm9110@outlook.com", 
+      "jmyuan@smu.edu.sg", 
+      "jiamingy@uoregon.edu"
+    ],
+    "social":{
+      "📁 GitHub": "https://github.com/yjm9110",
+      "🪪 LinkedIn": "https://www.linkedin.com/in/jiaming-yuan-553b2421a"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "en": {
+    "text": "Jiaming Yuan is a Research Scientist at the Centre on Security, Mobile Applications and Cryptography, Singapore Management University (SMU). He received his Ph.D. in Computer and Information Science from the University of Oregon in March 2026, where he conducted research in applied cryptography since 2021. His work focuses on searchable encryption, attribute-based encryption, and registration-based encryption, aiming to enhance security and efficiency. He has published 13 papers in refereed international conferences and journals, such as ACM CCS, ESORICS, ACM DLT, IEEE DSC, and Information Sciences."
+  },
+  "cn": {
+    "text": "袁家明是新加坡管理大学（Singapore Management University (SMU)）安全、移动应用和密码学中心（Centre on Security, Mobile Applications and Cryptography）的研究科学家（Research Scientist）。他于2026年3月获得俄勒冈大学（University of Oregon）计算机与信息科学（Computer and Information Science）博士学位，自2021年起便在该校开展应用密码学研究。他的研究方向主要集中在可搜索加密（Searchable Encryption）、属性基加密（Attribute-Based Encryption）以及注册加密（Registered Encryption），旨在提升安全性和效率。目前，他已在国际知名会议和期刊上发表了13篇论文，例如ACM CCS，ESORICS，ACM DLT，IEEE DSC，and Information Sciences。"
+  }
+}

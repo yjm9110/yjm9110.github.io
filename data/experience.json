@@ -1,0 +1,86 @@
+[
+  {
+    "en": {
+      "title": "Research Scientist",
+      "organization": "Centre on Security, Mobile Applications and Cryptography, Singapore Management University",
+      "period": "May 2026 – Now"
+    },
+    "cn": {
+      "title": "研究科学家",
+      "organization": "新加坡管理大学，安全、移动应用和密码学中心 (Centre on Security, Mobile Applications and Cryptography)",
+      "period": "2026年5月 – 至今"
+    }
+  },
+  {
+    "en": {
+      "title": "Research Assistant (RA)",
+      "organization": "Center for Cyber Security and Privacy, University of Oregon",
+      "period": "January 2025 – March 2026"
+    },
+    "cn": {
+      "title": "研究助理 (RA)",
+      "organization": "俄勒冈大学，网络安全与隐私中心 (Center for Cyber Security and Privacy)",
+      "period": "2025年1月 – 2026年3月"
+    }
+  },
+  {
+    "en": {
+      "title": "Teaching Assistant (TA)",
+      "organization": "University of Oregon",
+      "period": "September 2023 – December 2024",
+      "details": [
+        "Instructor of lab class: CS 122 Intro to Programming using Python 3",
+        "Grader of class: CS 333 Applied Cryptography",
+        "Grader of Class: 436/536 Secure Software Development",
+        "Grader of Class: 432/532 Introduction to Networks"
+      ]
+    },
+    "cn": {
+      "title": "助教 (TA)",
+      "organization": "俄勒冈大学",
+      "period": "2023年9月 – 2024年12月",
+      "details": [
+        "实验课讲师：CS 122 Python 3 编程入门 (Intro to Programming using Python 3)",
+        "课程助教：CS 333 应用密码学 (Applied Cryptography)",
+        "课程助教：CS 436/536 安全软件开发 (Secure Software Development)",
+        "课程助教：CS 432/532 计算机网络导论 (Introduction to Computer Networks)"
+      ]
+    }
+  },
+  {
+    "en": {
+      "title": "Research Assistant (RA)",
+      "organization": "Center for Cyber Security and Privacy, University of Oregon",
+      "period": "June 2021 – August 2023"
+    },
+    "cn": {
+      "title": "研究助理 (RA)",
+      "organization": "俄勒冈大学，网络安全与隐私中心(Center for Cyber Security and Privacy)",
+      "period": "2021年6月 – 2023年8月"
+    }
+  },
+  {
+    "en": {
+      "title": "Research Engineer (RE)",
+      "organization": "Secure Mobile Center, Singapore Management University",
+      "period": "November 2016 – March 2021"
+    },
+    "cn": {
+      "title": "研究工程师 (RE)",
+      "organization": "新加坡管理大学，安全移动中心 (Secure Mobile Center)",
+      "period": "2016年11月 – 2021年3月"
+    }
+  },
+  {
+    "en": {
+      "title": "Software Engineer (SE)",
+      "organization": "Realtime Invention (Beijing) (RTI)",
+      "period": "March 2016 – October 2016"
+    },
+    "cn": {
+      "title": "软件工程师 (SE)",
+      "organization": "实创时新 (Realtime Invention)（北京）科技有限公司 (RTI)",
+      "period": "2016年3月 – 2016年10月"
+    }
+  }
+]
