@@ -4,6 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Jiaming YUAN's Home Page</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 	<script>
 		function setEmojiFavicon(emoji) {
@@ -50,56 +51,95 @@
 									id="avatar" style="" src="figures/jiaming.jpg" /></a></figure>
 					</div>
 					<div style="margin: auto;" class="column">
-						<p class="" >🏡 <span id="address" ></span></p>
-						<p class="">📱 <span id="phone"></span></p>
-						<p class="">📧 <span id="email">
-								<a href="mailto:jiamingy@uoregon.edu">jiamingy AT uoregon dot edu</a>; 
-								<a href="mailto:yjm9110@outlook.com">yjm9110 AT outlook dot com</a>
-							</span>
-						</p>
-						<p class=""><span id="social">
-								<a href="https://github.com/yjm9110">📁 GitHub</a>
-								&nbsp;&nbsp;
-								<a href="https://www.linkedin.com/in/jiaming-yuan-553b2421a">🪪 LinkedIn</a>
-							</span>
-						</p>
+						<div class="profile-list">
+							<div class="profile-list-icon">
+								<p class=""><i class="fas fa-map-marker-alt"></i></p>
+							</div>
+							<div class="profile-list-value">
+								<p id="address" class=""></p>
+							</div>
+						</div>
+						<!-- <div class="profile-list">
+							<div class="profile-list-icon">
+								<p class=""><i class="fas fa-mobile-alt"></i></p>
+							</div>
+							<div class="profile-list-value">
+								<p id="phone" class=""></p>
+							</div>
+						</div> -->
+						<div class="profile-list">
+							<div class="profile-list-icon">
+								<p class=""><i class="fas fa-mobile-alt"></i></p>
+							</div>
+							<div class="profile-list-value">
+								<!-- <p id="email" class=""></p> -->
+								<div id="phone" class="profile-list">
+									<div class="profile-list-value">
+										<!-- <span></span> -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="profile-list">
+							<div class="profile-list-icon">
+								<p class=""><i class="fas fa-paper-plane"></i></p>
+							</div>
+							<div class="profile-list-value">
+								<!-- <p id="email" class=""></p> -->
+								<div id="email" class="profile-list">
+									<div class="profile-list-value">
+										<!-- <a href="mailto:">mailaddr</a> -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="profile-list">
+							<div id="social" style="display: flex;">
+								<!-- <div class="profile-list-icon">
+									<p class=""><i class="fab fa-github"></i></p>
+								</div>
+								<div class="profile-list-value">
+									<p class=""> <a href="https://github.com/yjm9110">GitHub</a></p>
+								</div> -->
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<!-- Biography section -->
 			<div style="margin: auto; max-width: 600px;">
-				<h3  class="" >📝 <span data-i18n="biography">Biography</span></h3>
+				<h3  class="section-title biography" ><i class="fas fa-id-card"></i> <span data-i18n="biography">Biography</span></h3>
 				<p  class="" id="biography-container">Jiaming Yuan is a Ph.D. student in Computer Science at the University of Oregon, where he has been conducting research in applied cryptography since 2021. His work focuses on searchable encryption, attribute-based encryption, and registration-based encryption, aiming to enhance security and efficiency. He has published 13 papers in cyber security.</p>
 			</div>
 
 			<!-- Education section -->
-			<h2 class="">🎓 <span data-i18n="education">Education</span></h2>
+			<h2 class="section-title education"><i class="fas fa-graduation-cap"></i> <span data-i18n="education">Education</span></h2>
 			<div id="education-container"></div>
 			<hr />
 
 			<!-- Experience section -->
-			<h2  class="">💼 <span data-i18n="experience">Experience</span></h2>
+			<h2  class="section-title experience"><i class="fas fa-briefcase"></i> <span data-i18n="experience">Experience</span></h2>
 			<div id="experience-container"></div>
 			<hr />
 
 			<!-- Projects section -->
-			<h2  class="">🪧 <span data-i18n="projects">Projects</span></h2>
+			<h2  class="section-title projects"><i class="fas fa-project-diagram"></i> <span data-i18n="projects">Projects</span></h2>
 			<div id="projects-container"></div>
 			<hr  />
 
 			<!-- Publications section -->
-			<h2 class="" >📄 <span data-i18n="publications">Publications</span></h2>
+			<h2 class="section-title publications" ><i class="fas fa-book-open"></i> <span data-i18n="publications">Publications</span></h2>
 			<div id="publications-container"></div>
 			<hr  />
 
 			<!-- Fellowships and Awards section -->
-			<h2  class="">⭐ <span data-i18n="fellowships">Fellowships and Awards</span></h2>
+			<h2  class="section-title fellowships"><i class="fas fa-award"></i> <span data-i18n="fellowships">Fellowships and Awards</span></h2>
 			<div id="fellowships-container"></div>
 			<hr />
 
 			<!--  skills section -->
-			<h2  class="">👤 <span data-i18n="skills">Skills</span></h2>
+			<h2  class="section-title skills"><i class="fas fa-user-cog"></i> <span data-i18n="skills">Skills</span></h2>
 			<div id="skills-container"></div>
 		</div>
 	</article><span class="sans" style="font-size:14px;padding-top:2em"></span>
@@ -160,21 +200,16 @@
 			if(obj.address) 
 				replace('address', obj.address);
 			if(obj.phone){
-				const phones = obj.phone.join('; ')
+				const phones = obj.phone.map(e=>'<div class="profile-list-value"><span>'+e+';<span></div>').join(' ');
 				replace('phone', phones);
 			}if(obj.email){
-				const emails = obj.email.map(e=> e.includes('@') ? '<a href="mailto:'+e+'">'+e+'</a>' : e).join('; ');
+				const emails = obj.email.map(e=> e.includes('@') ? '<div class="profile-list-value"><a href="mailto:'+e+'">'+e+'</a>;</div>' : e).join(' ');
 				replace('email', emails);
 			}
 			if(obj.social){
-				const socials = Object.entries(obj.social).map(([key, value]) => '<a href="'+value+'">'+key+'</a>').join(' &nbsp;&nbsp; ');
-				replace('social', socials)
-				// if(obj.github || obj.linkedin){
-				// 	html += '<p>' + (obj.github?('<a href="'+obj.github+'">📁 GitHub</a>'):'');
-				// 	if(obj.github && obj.linkedin) 
-				// 		html += ' &nbsp;&nbsp; ';
-				// 	html += (obj.linkedin?('<a href="'+obj.linkedin+'">🪪 LinkedIn</a>'):'') + '</p>';
-				// }
+				const socials = obj.social.map(([icon, kname, value]) => '<div class="profile-list-icon"><p class="">' + icon + 
+								'</p></div><div class="profile-list-value"><p class=""><a href="' + value + '">' + kname + '</a></p></div>').join(' ');
+				replace('social', socials);
 			}
 		}
 

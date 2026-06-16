@@ -833,3 +833,70 @@ blockquote {
     color:#888;
     font-weight: bold;
 }
+
+/* --- 上部：联系方式图标彩色 --- */
+.fa-map-marker-alt {
+    color: #EA4335; /* 谷歌地图经典的 红色 大头针 */
+}
+
+.fa-mobile-alt {
+    color: #34A853; /* 充满活力的 绿色 手机 */
+}
+
+.fa-paper-plane {
+    color: #FBBC05; /* 温暖明亮的 橙黄色 信封 */
+}
+
+/* --- 社交账号图标（官方品牌色） --- */
+.fa-github {
+    color: #24292e; /* GitHub 官方深灰色 */
+}
+
+.fa-linkedin {
+    color: #0A66C2; /* LinkedIn 官方职场蓝 */
+}
+
+/* --- 下部：各板块标题图标彩色 --- */
+.section-title.biography {
+    color: #673AB7; /* Biography: 深邃的 💜紫色 */
+}
+
+.section-title.education {
+    color: #62aeff; /* Education: 严谨的 💙学士蓝 */
+}
+
+.section-title.experience {
+    color: #a67e59; /* Experience: 稳重的 🤎公文包棕 */
+}
+
+.section-title.projects {
+    color: #17A2B8; /* Projects: 科技感的 🩵青色 */
+}
+
+.section-title.publications {
+    color: #ff75b6; /* Publications: 醒目的 🩷玫红/学术粉 */
+}
+
+.section-title.fellowships {
+    color: #ffd75d; /* Awards: 荣誉的 💛纯金色 */
+}
+
+.section-title.skills {
+    color: #ffa77b; /* Skills: 沉稳的 🩶高级灰 */
+}
+
+.profile-list{
+    display: flex; 
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.profile-list .profile-list-icon{
+    margin-top: 0.3em; 
+    margin-right: 0.5em;
+}
+
+.profile-list .profile-list-value{
+    margin-right:1em;
+    max-width: 25em;
+}
