@@ -891,6 +891,10 @@ blockquote {
     justify-content: center; /* 1. 水平居中：控制左右位置 */
 }
 
+.column-list.profiles>.column{
+    margin-left: 0;
+}
+
 .profile-list{
     text-align: left;
     display: flex;
