@@ -16,7 +16,8 @@
     "social":[
       ["<i class=\"fab fa-github\"></i>", "GitHub", "https://github.com/yjm9110"],
       ["<i class=\"fab fa-linkedin\"></i>", "LinkedIn", "https://www.linkedin.com/in/jiaming-yuan-553b2421a"]
-    ]
+    ],
+    "orcid": "0000-0001-7674-9067"
   },
   "cn": {
     "name": "袁(YUAN) 家明(Jiaming)",
@@ -35,6 +36,7 @@
     "social":[
       ["<i class=\"fab fa-github\"></i>", "GitHub", "https://github.com/yjm9110"],
       ["<i class=\"fab fa-linkedin\"></i>", "LinkedIn", "https://www.linkedin.com/in/jiaming-yuan-553b2421a"]
-    ]
+    ],
+    "orcid": "0000-0001-7674-9067"
   }
 }

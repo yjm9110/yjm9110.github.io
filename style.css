@@ -95,7 +95,7 @@ figcaption {
 
 #avatar {
     min-width: 85px; 
-    max-width: 85px; 
+    max-width: 130px; 
     border-radius: 10px; 
     box-shadow: 0 0 10px rgb(152, 191, 248);
 }
@@ -140,6 +140,7 @@ img {
 .column-list {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .column {
@@ -885,18 +886,103 @@ blockquote {
     color: #ffa77b; /* Skills: 沉稳的 🩶高级灰 */
 }
 
+.column-list.profiles{
+    align-items: center;
+    justify-content: center; /* 1. 水平居中：控制左右位置 */
+}
+
 .profile-list{
-    display: flex; 
     text-align: left;
-    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: nowrap;       /* 核心点 1：图标和内容绝对不能上下换行，必须在一行 */
+    align-items: flex-start; /* 核心点 2：顶部对齐。这样右边变成两行时，左边图标依然稳居首行顶部 */
+    width: 100%;             /* 占满父级 */
+    margin-bottom: 12px;     /* 条目之间的下方间距，确保右边变两行时安全推开下方的其他条目 */
+}
+
+.column .profile-list:last-child {
+    margin-bottom: 0;     /* 条目之间的下方间距，确保右边变两行时安全推开下方的其他条目 */
 }
 
 .profile-list .profile-list-icon{
-    margin-top: 0.3em; 
-    margin-right: 0.5em;
+    /* margin-top: 0.3em; 
+    margin-right: 0.5em; */
+    flex: 0 0 auto;          /* 核心点 3：不放大、不缩小、完全由图标自身宽度决定（固定宽度） */
+    width: 24px;             /* 给图标一个固定的宽度，比如 24px */
+    height: 24px;
+    text-align: center;
 }
 
 .profile-list .profile-list-value{
     margin-right:1em;
-    max-width: 25em;
+}
+
+.profile-list .profile-list-value:last-child{
+    margin-right:0;
+}
+
+.profile-list .profile-list-text{
+    flex: 1;                 /* 核心点 4：极其重要！让右侧自动分走除图标外剩下的所有宽度 */
+    min-width: 0;            /* 核心点 5：严格禁止 Flex 子元素被长英文/URL 强行撑爆，使其可以安全被压缩换行 */
+    
+    /* 文本换行策略 */
+    word-break: break-word;  /* 遇到长地址、长 URL 时自动截断换行 */
+    overflow-wrap: break-word;
+}
+
+/* ==========================================================================
+   Profile Section Multi-Pattern Layout Rules
+   ========================================================================== */
+
+/* 2.2: 电话和邮箱的第二列容器（允许块与块之间换行，但严格留在第二列区域内） */
+.profile-list-block-container {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;        /* 块之间允许折行 */
+    align-items: center;
+    gap: 4px 12px;          /* 块与块之间的上下、左右间距 */
+}
+
+/* 2.2: 每一个独立的号码或邮箱个体（块内部严禁换行） */
+.profile-block-item {
+    white-space: nowrap;    /* 强制内部数据不拆行 */
+    display: inline-block;
+    color: rgb(55, 53, 47);
+}
+
+/* 2.3: 社交媒体的整行专用容器（横跨两列，解除一二列划分限制） */
+.profile-list-social-container {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;        /* 各自媒体div之间允许随意折行 */
+    gap: 8px 16px;          /* 每个社交div之间的间距 */
+    align-items: center;
+}
+
+/* 2.3: 图标+文字共同组成的单一div（绑定在一起不拆散） */
+.social-inline-item {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;    /* 确保图标和紧跟的文字不分家 */
+    /* gap: 6px;               图标与文字间的微调空隙 */
+}
+.social-inline-item .profile-icon{
+    width: 24px;             /* 给图标一个固定的宽度，比如 24px */
+    text-align: center;
+}
+
+/* 消除可能残留的内部 p 标签边距对对齐造成的干扰 */
+.profile-list-block-container p,
+.profile-list-social-container p,
+.profile-list-text p,
+.profile-list-icon p {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1.5;
+}
+
+.profile-list-icon p, .social-inline-item .profile-icon{
+    margin-top: 0.2em !important;
 }
